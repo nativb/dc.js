@@ -18,7 +18,7 @@ dc.logger.warn = function (msg) {
 
     return dc.logger;
 };
-
+git false
 dc.logger.debug = function (msg) {
     if (dc.logger.enableDebugLog && console) {
         if (console.debug) {
@@ -30,3 +30,5 @@ dc.logger.debug = function (msg) {
 
     return dc.logger;
 };
+
+//more
