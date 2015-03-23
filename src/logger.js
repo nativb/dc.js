@@ -7,6 +7,8 @@ dc.logger.enableDebugLog = false;
 
 //some more changes
 
+//test changes 2
+
 dc.logger.warn = function (msg) {
     if (console) {
         if (console.warn) {
@@ -18,7 +20,6 @@ dc.logger.warn = function (msg) {
 
     return dc.logger;
 };
-git false
 dc.logger.debug = function (msg) {
     if (dc.logger.enableDebugLog && console) {
         if (console.debug) {
@@ -31,6 +32,4 @@ dc.logger.debug = function (msg) {
     return dc.logger;
 };
 
-//more
-
-// and more
+//test changes
