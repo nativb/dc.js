@@ -2,6 +2,8 @@ dc.logger = {};
 
 dc.logger.enableDebugLog = false;
 
+//some changes
+
 dc.logger.warn = function (msg) {
     if (console) {
         if (console.warn) {
