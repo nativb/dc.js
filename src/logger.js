@@ -7,6 +7,8 @@ dc.logger.enableDebugLog = false;
 
 //some more changes
 
+//test changes 2
+
 dc.logger.warn = function (msg) {
     if (console) {
         if (console.warn) {
